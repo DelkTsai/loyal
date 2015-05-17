@@ -17,7 +17,7 @@ import org.nutz.mvc.ioc.provider.ComboIocProvider;
         "*tx"})
 @ChainBy(args= "mvc/mvc-chain.js")
 @SetupBy(value=MainSetup.class)
-@Filters(@By(type = SessionCheck.class, args = { "curruser", "/" }))
+@Filters(@By(type = SessionCheck.class, args = { "curruser", "/login" }))
 public class MainModule {
 
 }

@@ -1,16 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="weixin:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/weixin_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/weixin/target/loyal</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="weixin" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="lib" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.7" />
-          <element id="library" level="module" name="Maven: com.alibaba:jconsole:1.8.0" module-name="weixin" />
-          <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="weixin" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.28" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-all:1.2.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-guice:1.2.3" />
@@ -36,7 +33,13 @@
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
           <element id="library" level="project" name="Maven: org.nutz:nutz:1.b.52" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="module" name="Maven: com.alibaba:jconsole:1.8.0" module-name="weixin" />
+          <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="weixin" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/weixin/target/loyal/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="weixin/web/Web" />
     </root>
