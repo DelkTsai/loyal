@@ -48,14 +48,17 @@
                                 &nbsp;&nbsp;&nbsp;{{(page.pager.pageNumber-1)*page.pager.pageSize+$index+1}}
                             </td>
                             <td>{{user.username}}</td>
-                            <td><span class="label label-warning"><template v-repeat="user.roles">{{$index==0?alias:","+alias}}
-                            </template></span></td>
+                            <td>
+                                <span class="label label-waring flat" v-repeat="user.roles" style="margin-right: 3px;">
+                                    {{alias}}
+                                </span>
+                            </td>
                             <td>{{user.createTime}}</td>
                             <td>{{user.updateTime}}</td>
                             <td><label
-                                    class="label label-{{user.locked?'success':'danger'}}">{{user.locked?'已启用':'已禁用'}}</label>
+                                    class="flat label label-{{user.locked?'success':'danger'}}">{{user.locked?'已启用':'已禁用'}}</label>
                                 <button
-                                        class="btn btn-{{!user.locked?'success':'danger'}} btn-xs"
+                                        class="btn btn-{{!user.locked?'success':'danger'}} btn-xs btn-flat"
                                         v-on="click:switch_status(user)">{{!user.locked?'启用':'禁用'}}
                                 </button>
                             </td>
@@ -81,7 +84,8 @@
         data: {
             page: {
                 list: [
-                    {username: "loyal", roles: [{alias: "admin"}, {alias: "test"}]}
+                    {username: "loyal", roles: [{alias: "admin"}, {alias: "test"}]},
+                    {username: "panda", roles: [{alias: "admin"}, {alias: "test"}]}
                 ],
                 pager: {
                     pageNumber: 1,
