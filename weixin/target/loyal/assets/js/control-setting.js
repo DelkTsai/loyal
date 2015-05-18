@@ -4,7 +4,7 @@
  * You should not use this file in production.
  * This file is for demo purposes only.
  */
-(function ($, AdminLTE,$contol_con) {
+(function ($, AdminLTE) {
 
   /**
    * List of all the available skins
@@ -207,7 +207,7 @@
 
   tab_pane.append(demo_settings);
   //$("#control-sidebar-home-tab").after(tab_pane);
-    $($contol_con+" .tab-content").append(tab_pane);
+    $(" .tab-content").append(tab_pane);
   setup();
 
   /**
@@ -332,4 +332,4 @@
     }
     
   }
-})(jQuery, $.AdminLTE,"#control-con");
+})(jQuery, $.AdminLTE);

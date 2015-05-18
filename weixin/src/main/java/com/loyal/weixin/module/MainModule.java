@@ -11,7 +11,7 @@ import org.nutz.mvc.ioc.provider.ComboIocProvider;
 
 @Modules(scanPackage = true)
 @Ok("json")
-@Fail("json")
+@Fail("http:500")
 @IocBy(type=ComboIocProvider.class,args={"*js", "ioc/",
         "*anno", "com.loyal.weixin",
         "*tx"})

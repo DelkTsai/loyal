@@ -6,6 +6,7 @@ Time: 10:55
 To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -60,10 +61,6 @@ To change this template use File | Settings | File Templates.
                         <label>
                             <input type="checkbox"> 记住我
                         </label>
-                        <label>
-                            <span><%=session.getAttribute("msg")==null?"":session.getAttribute("msg")%></span>
-                            <% session.removeAttribute("msg");%>
-                        </label>
                     </div>
                 </div>
                 <!-- /.col -->
@@ -83,8 +80,11 @@ To change this template use File | Settings | File Templates.
         <!--</div>-->
         <!-- /.social-auth-links -->
 
-        <a href="#">忘记密码</a> <a href="#" class="text-center pull-right">注册</a>
-
+        <%--<a href="#">忘记密码</a> <a href="#" class="text-center pull-right">注册</a>--%>
+        <label>
+            <span><%=session.getAttribute("msg")==null?"":session.getAttribute("msg")%></span>
+            <% session.removeAttribute("msg");%>
+        </label>
     </div>
     <!-- /.login-box-body -->
 </div>

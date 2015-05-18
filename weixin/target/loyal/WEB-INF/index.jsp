@@ -6,10 +6,9 @@ Time: 10:55
 To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +27,8 @@ To change this template use File | Settings | File Templates.
     <link href="../assets/plugins/iCheck/square/blue.css" rel="stylesheet">
     <link href="../assets/css/ionicons.css" rel="stylesheet">
     <link href="../assets/css/skins/_all-skins.css" rel="stylesheet">
+    <link href="../assets/plugins/layer/skin/layer.css">
+    <link href="../assets/plugins/layer/skin/layer.ext.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,12 +37,17 @@ To change this template use File | Settings | File Templates.
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!--required js-->
+    <script src="../assets/js/jquery-2.1.1.min.js"></script>
+    <script src="../assets/js/vue.js"></script>
+
 </head>
 
 <body class="skin-blue sidebar-mini fixed">
 <!-- Site wrapper -->
 <div class="wrapper">
 
+    <!-- Main Header. Contains page header -->
     <header class="main-header">
         <!-- Logo -->
         <a href="index.jsp" class="logo">
@@ -197,7 +203,6 @@ To change this template use File | Settings | File Templates.
             </div>
         </nav>
     </header>
-
     <!-- =============================================== -->
 
     <!-- Left side column. contains the sidebar -->
@@ -249,13 +254,13 @@ To change this template use File | Settings | File Templates.
         </section>
         <!-- /.sidebar -->
     </aside>
-
     <!-- =============================================== -->
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
+            <!-- breadcrumb content -->
             <div>
                 <ol class="breadcrumb">
                     <li class="active">
@@ -268,12 +273,13 @@ To change this template use File | Settings | File Templates.
 
         <!-- Main content -->
         <section class="content">
-
+            <!-- content -->
         </section>
         <!-- /.content -->
+
     </div>
     <!-- /.content-wrapper -->
-
+    <!-- =============================================== -->
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
             <b>Version</b> 2.0
@@ -300,19 +306,19 @@ To change this template use File | Settings | File Templates.
 <!-- ./wrapper -->
 
 <!-- Mainly scripts -->
-<script src="../assets/js/jquery-2.1.1.min.js"></script>
 <script src="../assets/js/bootstrap.js"></script>
-<script src="../assets/js/vue.js"></script>
 <script src="../assets/plugins/iCheck/icheck.js"></script>
 <script src="../assets/plugins/slimScroll/jquery.slimscroll.js"></script>
 <script src="../assets/plugins/fastclick/fastclick.js"></script>
 <script src="../assets/js/app.js"></script>
 <script src="../assets/js/control-setting.js"></script>
+<script src="../assets/plugins/layer/layer.js"></script>
+<script src="../assets/plugins/layer/extend/layer.ext.js"></script>
 <script src="../assets/js/ajaxapp.js"></script>
 <script>
 
-    var sidebar = new Vue({
-        el: ".main-sidebar",
+    var vm_sidebar = new Vue({
+        el: "#my-sidebar",
         data: {
             menus: [
                 {name: "home", text: "首页", icon: "fa fa-dashboard", child: []},
@@ -321,8 +327,13 @@ To change this template use File | Settings | File Templates.
                     {name: "user", text: "用户管理", icon: "fa fa-user", child: []},
                     {name: "role", text: "角色管理", icon: "fa fa-users", child: []}
                 ]
+                },
+                {
+                    name: "wx", text: "微信管理", icon: "fa fa-weixin", child: [
+                    {name: "user", text: "微信用户", icon: "fa fa-user", child: []},
+                    {name: "menu", text: "自定义菜单", icon: "fa fa-list", child: []}
+                ]
                 }
-
             ]
         },
         methods: {}

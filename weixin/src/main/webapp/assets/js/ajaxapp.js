@@ -10,10 +10,21 @@ function ajaxLoad(sidebar) {
     this.selector = sidebar + ".main-sidebar .sidebar ul.sidebar-menu li";
 
     function linkTo(href) {
+        var loading;
         href = href.split("#").length == 2 ? href.split("#")[1] : "home";
-        $.get(href + "?" + new Date(), function (data) {
-            $(".content-wrapper .content").html(data);
+        $.ajax({
+            url: href + "?" + new Date(),
+            type: "GET",
+            beforeSend: function () {
+                loading = layer.load(1,{shade: [0.5,'#333']});
+                //此处用setTimeout演示ajax的回调
+            },
+            success: function (data) {
+                layer.close(loading);
+                $(".content-wrapper .content").html(data);
+            }
         });
+
     }
 
     function activeSidebar(obj) {
@@ -23,7 +34,7 @@ function ajaxLoad(sidebar) {
         activeSidebar($(obj).parents("li").first());
     }
 
-    function update(obj,href){
+    function update(obj, href) {
         $(selector).removeClass("active");
         $(".breadcrumb").html('<li class="active"><i class="fa fa-home"></i></li>');
         activeSidebar($(obj).parent());
@@ -31,16 +42,16 @@ function ajaxLoad(sidebar) {
         document.title = $(obj).text() + " - 后台管理";
     }
 
-    function init(){
+    function init() {
         var href = window.location.href;
-        href = href.split("#").length == 2 ? href.split("#")[1] : "home";
-        var obj = $(selector+" a[href='#"+href+"']");
-        update(obj,href);
+        var link = href.split("#").length == 2 ? href.split("#")[1] : "home";
+        var obj = $(selector + " a[href='#" + link + "']");
+        update(obj, href);
 
         $(selector + " a").click(function () {
             var href = $(this).attr("href");
             if (href.trim() == null || href.trim() == "" || href.trim() == "#") return false;
-            update(this,href);
+            update(this, href);
         });
     }
 
