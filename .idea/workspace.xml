@@ -2,11 +2,646 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0e8df3f-c9f0-4335-a1a7-42bd4be23fa3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/weixin/target/loyal/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/user.jsp" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/user.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/CaptchaFormAuthenticationFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/CaptchaUsernamePasswordToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_jobs_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/quartz/NutQuartzCronJobFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/quartz/NutQuartzJobFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/NutShiro.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/NutShiroAopConfigure.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/NutShiroInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/NutShiroMethodInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/NutShiroProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/ShiroActionFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/resources/shiro.ini" />
+      <change type="DELETED" beforePath="G:\Git\loyal\weixin\target\loyal\WEB-INF\lib\jconsole.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Git\loyal\weixin\target\loyal\WEB-INF\lib\slf4j-api-1.7.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Git\loyal\weixin\target\loyal\WEB-INF\lib\tools.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/BasePojo.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/BasePojo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/BaseService.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/BaseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/weixin/handler/DefaultHandler.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/weixin/handler/DefaultHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Device.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Device.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/DeviceData.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/DeviceData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/DeviceDataService.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/DeviceDataService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/DeviceService.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/DeviceService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/home/HomeMudule.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/home/HomeMudule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/mvc/LogTimeProcessor.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/mvc/LogTimeProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/login/LoginModule.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/login/LoginModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/MainModule.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/MainModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/MainSetup.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/MainSetup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Menu.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/MenuService.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/MenuService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/mvc/MyNutFilter.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/mvc/MyNutFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/view/NoSessionView.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/view/NoSessionView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Org.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Org.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Permission.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Permission.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Role.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/sys/RoleModule.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/sys/RoleModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/RoleService.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/RoleService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/mvc/SessionCheck.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/mvc/SessionCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/weixinex/ShortVideoBuilder.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/weixinex/ShortVideoBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/weixin/handler/TestHandler.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/weixin/handler/TestHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/User.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/sys/UserModule.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/sys/UserModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/UserProfile.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/UserProfile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/UserService.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/weixin/WeixinModule.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/weixin/WeixinModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/weixin/handler/WxHandler.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/weixin/handler/WxHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/weixinex/WxMpXmlOutShortVideoMessage$ShortVideo.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/weixinex/WxMpXmlOutShortVideoMessage$ShortVideo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/weixinex/WxMpXmlOutShortVideoMessage.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/bean/weixinex/WxMpXmlOutShortVideoMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/data/2500.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/data/2500.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/AdminLTE.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/AdminLTE.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/AdminLTE.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/AdminLTE.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/chartjs/Chart.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/chartjs/Chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/chartjs/Chart.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/chartjs/Chart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/License.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/License.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/License.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/License.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/License.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/License.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/License.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/License.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/README.md" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/Readme.md" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/Readme.md" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/Readme.md" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/Readme.md" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/Readme.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/Readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/Readme.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/Readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/Readme.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/Readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/Readme.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/Readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/_all-skins.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/_all-skins.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/_all.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/_all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/_all.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/_all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/_all.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/_all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/_all.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/_all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/about/dialogs/about.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/aero.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/aero.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/aero.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/aero.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/aero.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/aero.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/aero.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/aero.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/af.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/ajax.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/webapp/assets/js/ajaxapp.js" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/js/ajaxapp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/ajaxapp.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/ajaxapp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/all.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/link/dialogs/anchor.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/animate.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/animate.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/animate.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/app.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/app.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/app.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ar.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/bg.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/blue.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/blue.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/blue.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/blue.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/bn.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/bn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/colorpicker/bootstrap-colorpicker.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/colorpicker/bootstrap-colorpicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/colorpicker/bootstrap-colorpicker.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/colorpicker/bootstrap-colorpicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/colorpicker/bootstrap-colorpicker.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/colorpicker/bootstrap-colorpicker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ar.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.az.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.az.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.bg.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ca.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.cs.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.cy.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.da.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.de.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.el.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.es.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.et.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.fa.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.fi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.fr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.gl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.he.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.hr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.hu.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.id.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.is.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.it.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ja.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/bootstrap-datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ka.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.kk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.kk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.kr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.kr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.lt.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.lv.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.mk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ms.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.nb.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.nl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.no.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.pl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.pt.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ro.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.rs.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.rs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ru.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sq.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sv.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sw.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.sw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.th.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.tr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ua.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.ua.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.vi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-slider/bootstrap-slider.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-slider/bootstrap-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/timepicker/bootstrap-timepicker.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/timepicker/bootstrap-timepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/timepicker/bootstrap-timepicker.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/timepicker/bootstrap-timepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/timepicker/bootstrap-timepicker.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/timepicker/bootstrap-timepicker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/timepicker/bootstrap-timepicker.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/timepicker/bootstrap-timepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/bootstrap.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/bootstrap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/bs.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/bs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/build-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/button_order.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/button_order.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/button_text.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/button_text.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ca.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/ckeditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/col_filter.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/col_filter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/collection.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/collection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/columns.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/columns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/colvis.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/colvis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/colvis.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/colvis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/compact.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/compact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/config.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/contents.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/contents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/cs.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/css_size.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/css_size.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/cy.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/da.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/dataTables.bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/dataTables.bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/dataTables.bootstrap.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/dataTables.bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/datepicker3.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datepicker/datepicker3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/daterangepicker/daterangepicker-bs3.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/daterangepicker/daterangepicker-bs3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/daterangepicker/daterangepicker.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/daterangepicker/daterangepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/de.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/pastefromword/filter/default.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/defaults.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/defaults.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_ie.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_ie7.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_ie8.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_iequirks.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_opera.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/dialog_opera.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/el.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/en-au.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/en-au.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/en-ca.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/en-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/en-gb.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/eo.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/es.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/et.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/eu.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/events.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/excanvas.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/excanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fa.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fastclick/fastclick.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fastclick/fastclick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/fill-both.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/fill-both.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/flat.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/flat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fo.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/font-awesome.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fr-ca.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.print.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/fullcalendar/fullcalendar.print.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/futurico/futurico.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/futurico/futurico.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/gl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/green.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/green.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/green.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/green.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/grey.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/grey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/grey.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/grey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/grey.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/grey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/grey.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/grey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/group_columns.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/group_columns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/gu.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/he.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/hi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/hr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/html.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/html.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/hu.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/icheck.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/icheck.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/icheck.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/icheck.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/id.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/image/dialogs/image.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/index.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/index.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/index_column.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/index_column.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ionslider/ion.rangeSlider.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ionslider/ion.rangeSlider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ionslider/ion.rangeSlider.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ionslider/ion.rangeSlider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ionslider/ion.rangeSlider.skinFlat.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ionslider/ion.rangeSlider.skinFlat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ionslider/ion.rangeSlider.skinNice.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ionslider/ion.rangeSlider.skinNice.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/ionicons.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/ionicons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/ionicons.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/ionicons.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/fonts/ionicons.svg" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/fonts/ionicons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/is.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/it.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jQuery/jQuery-2.1.4.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jQuery/jQuery-2.1.4.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ja.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/jquery-2.1.1.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/jquery-2.1.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jQueryUI/jquery-ui-1.10.3.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jQueryUI/jquery-ui-1.10.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jQueryUI/jquery-ui-1.10.3.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/jQueryUI/jquery-ui-1.10.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.colorhelpers.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.colorhelpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables.min.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables_themeroller.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/jquery.dataTables_themeroller.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.canvas.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.canvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.categories.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.categories.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.crosshair.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.crosshair.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.errorbars.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.errorbars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.fillbetween.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.fillbetween.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.image.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.navigate.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.navigate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.pie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.resize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.selection.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.selection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.stack.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.stack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.symbol.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.symbol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.threshold.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.threshold.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.time.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/flot/jquery.flot.time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.date.extensions.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.date.extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.extensions.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.numeric.extensions.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.numeric.extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.phone.extensions.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.phone.extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.regex.extensions.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/jquery.inputmask.regex.extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/adapters/jquery.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/adapters/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/knob/jquery.knob.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/knob/jquery.knob.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/slimScroll/jquery.slimscroll.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/slimScroll/jquery.slimscroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/sparkline/jquery.sparkline.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/sparkline/jquery.sparkline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/sparkline/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/sparkline/jquery.sparkline.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/jqueryui.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/jqueryui.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/jqueryui.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/jqueryui.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ka.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/km.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ko.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ku.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/large_js_source.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/large_js_source.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/line.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/line.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/link/dialogs/link.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/lt.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/lv.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/minimal.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/minimal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/mk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/mn.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/mn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/daterangepicker/moment.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/daterangepicker/moment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/daterangepicker/moment.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/daterangepicker/moment.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/morris/morris.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/morris/morris.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/morris/morris.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/morris/morris.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/morris/morris.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/morris/morris.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/mouseover.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/mouseover.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ms.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/multi_instance.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/multi_instance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/mymenu.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/mymenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/nb.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/new_init.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/new_init.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/new_init.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/new_init.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/new_init.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/new_init.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/nl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/no.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/npm.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/scayt/dialogs/options.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/orange.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/orange.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/orange.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/orange.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/pace/pace.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/pace/pace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/pdf_message.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/pdf_message.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/peity-demo.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/peity-demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/pgwmenu.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/pgwmenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/pgwmenu.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/pgwmenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/pgwmenu.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/pgwmenu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/phone-codes/phone-be.json" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/phone-codes/phone-be.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/phone-codes/phone-codes.json" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/input-mask/phone-codes/phone-codes.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/pink.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/pink.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/pink.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/pink.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/pl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/plug-in.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/plug-in.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/polaris/polaris.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/polaris/polaris.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/pom.xml" afterPath="$PROJECT_DIR$/weixin/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/predefined.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/predefined.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/pt-br.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/pt.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/purple.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/purple.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/purple.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/purple.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/realtime.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/realtime.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/red.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/red.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/red.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/red.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/reset.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/reset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/restore.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/restore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/right_column.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/right_column.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ro.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ru.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/scrolling.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/scrolling.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/scrolling.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/scrolling.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/scrolling.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/scrolling.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/select_column.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/select_column.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/select_multi.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/select_multi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/select_os.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/select_os.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/select_single.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/select_single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/server_side.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/server_side.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/si.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/simple.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/simple.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/simple.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/simple.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/simple.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/simple.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/KeyTable/examples/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/simple.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/simple.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-black-light.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-black-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-black.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-blue-light.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-blue-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-blue.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-green-light.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-green-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-green.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-purple-light.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-purple-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-purple.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-red-light.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-red-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-red.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-yellow-light.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-yellow-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-yellow.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/css/skins/skin-yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-slider/slider.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/bootstrap-slider/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sq.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/square.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/square.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sr-latn.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sr-latn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/data/ssp.php" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/data/ssp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/state_save.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColReorder/examples/state_save.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/state_saving.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Scroller/examples/state_saving.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/step-callback.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/AutoFill/examples/step-callback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/styles.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sv.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/swf_path.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/TableTools/examples/swf_path.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/table/dialogs/table.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/text.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/text.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/th.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/title_callback.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/title_callback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/tr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/two_tables.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/two_tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ug.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/uk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/vi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/weixin.iml" afterPath="$PROJECT_DIR$/weixin/weixin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/weixin_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/weixin_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/wow.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/wow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/wow.min.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/wow.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/yellow.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/flat/yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/yellow.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/line/yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/yellow.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/minimal/yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/yellow.css" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/iCheck/square/yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/lang/zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change type="MOVED" beforePath="G:\Git\loyal\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" />
     </list>
     <ignored path="loyal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,38 +668,18 @@
       <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/weixin/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="23" column="29" selection-start-line="21" selection-start-column="19" selection-end-line="23" selection-end-column="29" />
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/MainModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainSetup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/MainSetup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63829786">
-              <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.31034482">
+              <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -73,7 +688,7 @@
       <file leaf-file-name="role.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/role.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.31034482">
               <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
               <folding />
             </state>
@@ -83,8 +698,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="313" column="55" selection-start-line="313" selection-start-column="55" selection-end-line="313" selection-end-column="55" />
+            <state vertical-scroll-proportion="-20.194445">
+              <caret line="169" column="40" selection-start-line="169" selection-start-column="40" selection-end-line="169" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -94,8 +709,65 @@
         <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/assets/js/ajaxapp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NutShiro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/NutShiro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2228#2258#0" expanded="false" />
+                <element signature="e#2386#2394#0" expanded="false" />
+                <element signature="e#2440#2448#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shiro.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin/src/main/resources/shiro.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NutQuartzJobFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/quartz/NutQuartzJobFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.32258">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NutQuartzCronJobFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/quartz/NutQuartzCronJobFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47368422">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,7 +831,6 @@
         <option value="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/sys/UserModule.java" />
         <option value="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/sys/RoleModule.java" />
         <option value="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/mvc/MyNutFilter.java" />
-        <option value="$PROJECT_DIR$/weixin/pom.xml" />
         <option value="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/login/LoginModule.java" />
         <option value="$PROJECT_DIR$/weixin/src/main/resources/ioc/dao.js" />
         <option value="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/share/pager.jsp" />
@@ -172,10 +843,11 @@
         <option value="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/500.jsp" />
         <option value="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/404.jsp" />
         <option value="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/weixin/src/main/webapp/assets/js/ajaxapp.js" />
         <option value="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/role.jsp" />
-        <option value="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/weixin/user.jsp" />
         <option value="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/user.jsp" />
+        <option value="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/weixin/user.jsp" />
+        <option value="$PROJECT_DIR$/weixin/src/main/webapp/assets/js/ajaxapp.js" />
+        <option value="$PROJECT_DIR$/weixin/pom.xml" />
       </list>
     </option>
   </component>
@@ -238,7 +910,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,18 +1015,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loyal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quartz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loyal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -373,15 +1101,21 @@
     <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.loyal.weixin.mvc" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.loyal.weixin.view.handler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Git\loyal\weixin\src\main\java" />
       <recent name="C:\Users\Loyal\Documents\GitHub\loyal\weixin\src\main\webapp\assets\plugins" />
       <recent name="C:\Users\Loyal\Documents\GitHub\loyal\weixin\src\main\webapp\WEB-INF\weixin" />
       <recent name="C:\Users\Loyal\Documents\GitHub\loyal\weixin\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\Loyal\Documents\GitHub\loyal\weixin\src\main\webapp\assets\img" />
-      <recent name="C:\Users\Loyal\Documents\GitHub\loyal\weixin\src\main\webapp\assets\js" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.loyal.weixin.mvc" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Loyal\Documents\GitHub\loyal\weixin\src\main\webapp\WEB-INF" />
@@ -389,12 +1123,6 @@
       <recent name="F:\loyal\weixin\src\main\webapp\WEB-INF" />
       <recent name="F:\loyal\weixin\src\main\webapp\assets\css" />
       <recent name="F:\loyal\weixin\src\main\webapp\assets\fonts" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.loyal.weixin.view.handler" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat8.0">
@@ -679,6 +1407,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat8.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.14" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -690,6 +1419,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_loyal" />
+        <option name="HTTP_PORT" value="8080" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -784,12 +1514,13 @@
       <workItem from="1431852839620" duration="797000" />
       <workItem from="1431872151330" duration="235000" />
       <workItem from="1431909349854" duration="20189000" />
-      <workItem from="1431957853402" duration="612000" />
+      <workItem from="1431957853402" duration="1156000" />
+      <workItem from="1432035842183" duration="6033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128812000" />
+    <option name="totallyTimeSpent" value="135389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1060" extended-state="0" />
@@ -804,7 +1535,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41887593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33792374" sideWeight="0.23016702" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33792374" sideWeight="0.23956159" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.49373695" order="11" side_tool="false" content_ui="tabs" />
@@ -813,8 +1544,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17379959" sideWeight="0.91558444" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33792374" sideWeight="0.76983297" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20615867" sideWeight="0.91558444" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33792374" sideWeight="0.76043844" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -858,37 +1589,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/login/LoginModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/role.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/home/HomeMudule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/login/LoginModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1049,13 +1749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.909091">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/mvc/MyNutFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1177,38 +1870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/assets/js/ajaxapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="313" column="55" selection-start-line="313" selection-start-column="55" selection-end-line="313" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/role.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/weixin/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="29" selection-start-line="21" selection-start-column="19" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/MainModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1221,15 +1882,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63829786">
-          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.31034482">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/sys/role.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31034482">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.194445">
+          <caret line="169" column="40" selection-start-line="169" selection-start-column="40" selection-end-line="169" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/weixin/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/assets/js/ajaxapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/NutShiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2228#2258#0" expanded="false" />
+            <element signature="e#2386#2394#0" expanded="false" />
+            <element signature="e#2440#2448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin/src/main/resources/shiro.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/quartz/NutQuartzJobFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.32258">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/quartz/NutQuartzCronJobFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47368422">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
