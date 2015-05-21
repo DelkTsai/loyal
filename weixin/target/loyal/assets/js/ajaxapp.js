@@ -11,7 +11,6 @@ function ajaxLoad(sidebar) {
 
     function linkTo(href) {
         var loading;
-        href = href.split("#").length == 2 ? href.split("#")[1] : "home";
         $.ajax({
             url: href + "?" + new Date(),
             type: "GET",
@@ -38,15 +37,18 @@ function ajaxLoad(sidebar) {
         $(selector).removeClass("active");
         $(".breadcrumb").html('<li class="active"><i class="fa fa-home"></i></li>');
         activeSidebar($(obj).parent());
-        linkTo(href);
+        linkTo(href.substr(1));
         document.title = $(obj).text() + " - 后台管理";
     }
 
     function init() {
-        var href = window.location.href;
-        var link = href.split("#").length == 2 ? href.split("#")[1] : "home";
-        var obj = $(selector + " a[href='#" + link + "']");
-        update(obj, href);
+        (function(){
+            var href = window.location.href;
+            href.indexOf("#")>-1?href = href.substr(href.indexOf("#")):href="#home";
+            if(href=="#")href="#home";
+            var obj = $(selector + " a[href='" + href + "']");
+            update(obj, href);
+        })();
 
         $(selector + " a").click(function () {
             var href = $(this).attr("href");

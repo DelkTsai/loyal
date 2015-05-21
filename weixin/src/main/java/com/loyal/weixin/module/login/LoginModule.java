@@ -1,5 +1,7 @@
 package com.loyal.weixin.module.login;
 
+import org.apache.shiro.authc.AuthenticationToken;
+import org.nutz.integration.shiro.CaptchaFormAuthenticationFilter;
 import org.nutz.ioc.loader.annotation.IocBean;
 import org.nutz.mvc.annotation.*;
 
@@ -26,9 +28,9 @@ public class LoginModule {
     @POST
     @Ok(">>:/")
     @Fail(">>:500")
-    @Filters
-    public Object login(String username,String password,HttpSession session){
-        if ("admin".equals(username)&&"123".equals(password)) session.setAttribute("curruser",username);
+    @Filters(@By(type = CaptchaFormAuthenticationFilter.class))
+    public Object login(@Attr("loginToken")AuthenticationToken token,HttpSession session){
+//        if ("admin".equals(username)&&"123".equals(password)) session.setAttribute("curruser",username);
         session.setAttribute("msg","用户名或密码错误");
         return null;
     }

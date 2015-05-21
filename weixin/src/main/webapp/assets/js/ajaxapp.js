@@ -45,6 +45,7 @@ function ajaxLoad(sidebar) {
         (function(){
             var href = window.location.href;
             href.indexOf("#")>-1?href = href.substr(href.indexOf("#")):href="#home";
+            if(href=="#")href="#home";
             var obj = $(selector + " a[href='" + href + "']");
             update(obj, href);
         })();
