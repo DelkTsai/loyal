@@ -38,7 +38,7 @@ To change this template use File | Settings | File Templates.
 
 <body class="login-page" style="background: url('assets/img/boxed-bg.jpg');">
 
-<div class="login-box animated fadeInDown">
+<div class="login-box animated">
     <div class="login-logo">
         <a href="#"><img src="../assets/img/logo.png" width="30%" class="img-circle" alt="User Image"/></a>
     </div>
@@ -59,15 +59,25 @@ To change this template use File | Settings | File Templates.
                 <div class="col-xs-8">
                     <div class="checkbox icheck">
                         <label>
-                            <input type="checkbox"> 记住我
+                            <input type="checkbox" name="rememberMe"> 记住我
                         </label>
                     </div>
                 </div>
                 <!-- /.col -->
                 <div class="col-xs-4">
-                    <button type="submit" class="btn btn-primary btn-block btn-flat"><i class="fa fa-sign-out"></i> 登录</button>
+                    <button type="submit" class="btn btn-primary btn-block btn-flat"><i class="fa fa-sign-out"></i> 登录
+                    </button>
                 </div>
                 <!-- /.col -->
+
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <label class="label label-danger center-block flat <%=session.getAttribute("loginMsg") == null ? "hidden" : ""%>" style="line-height: 30px;">
+                        <%=session.getAttribute("loginMsg") == null ? "" : session.getAttribute("loginMsg")%>
+                    </label>
+                    <%session.removeAttribute("loginMsg"); %>
+                </div>
             </div>
         </form>
 
@@ -81,10 +91,7 @@ To change this template use File | Settings | File Templates.
         <!-- /.social-auth-links -->
 
         <%--<a href="#">忘记密码</a> <a href="#" class="text-center pull-right">注册</a>--%>
-        <label>
-            <span><%=session.getAttribute("msg")==null?"":session.getAttribute("msg")%></span>
-            <% session.removeAttribute("msg");%>
-        </label>
+
     </div>
     <!-- /.login-box-body -->
 </div>

@@ -53,7 +53,7 @@ public class UserService extends BaseService<User> {
 	}
 
 	// 创建初始化用户
-	public void add(String username, String password) {
+	public User add(String username, String password) {
 
 		rs.setv("ok", false).setv("msg", "用户添加失败");
 
@@ -65,7 +65,7 @@ public class UserService extends BaseService<User> {
 		user.setUpdateTime(new Date());
 		dao().insert(user);
 
-		rs.setv("ok", true).setv("msg", "添加成功，用户名：" + user.getUsername());
+		return user;
 	}
 
 	// 数据库更新操作

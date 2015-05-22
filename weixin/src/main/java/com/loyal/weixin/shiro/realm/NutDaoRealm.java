@@ -1,11 +1,6 @@
 package com.loyal.weixin.shiro.realm;
 
-import org.apache.shiro.authc.AccountException;
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.AuthenticationInfo;
-import org.apache.shiro.authc.AuthenticationToken;
-import org.apache.shiro.authc.LockedAccountException;
-import org.apache.shiro.authc.SimpleAccount;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authc.credential.CredentialsMatcher;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -82,7 +77,7 @@ public class NutDaoRealm extends AuthorizingRealm {
         if (user == null)
             return null;
         if (user.isLocked()) 
-            throw new LockedAccountException("Account [" + upToken.getUsername() + "] is locked.");
+            throw new LockedAccountException("帐户 [" + upToken.getUsername() + "] 已锁定.");
         if (user.getUsername()==null||"".equals(user.getUsername())) 
             throw new AccountException("用户名不能为空！");
         SimpleAccount account = new SimpleAccount(user.getId(), user.getPassword(), getName());
