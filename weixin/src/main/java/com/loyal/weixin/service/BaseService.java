@@ -19,11 +19,11 @@ public class BaseService<T> extends IdNameEntityService<T> {
         super(dao, entityType);
     }
 
-    public NutMap rsOk(Object data){
-        return new NutMap().setv("ok",true).setv("","");
+    public NutMap rsOk(){
+        return new NutMap().setv("ok",true);
     }
 
-    public NutMap rsFail(Object data){
-        return new NutMap().setv("ok",false).setv("","");
+    public NutMap rsFail(){
+        return new NutMap().setv("ok",false);
     }
 }

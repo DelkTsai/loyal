@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.nutz.mvc.NutFilter;
 
-public class MyNutFilter extends NutFilter {
+public class LoyalNutFilter extends NutFilter {
 	
 	protected Set<String> prefixs = new HashSet<String>();
 	

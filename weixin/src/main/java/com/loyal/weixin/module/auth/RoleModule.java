@@ -1,4 +1,4 @@
-package com.loyal.weixin.module.sys;
+package com.loyal.weixin.module.auth;
 
 import org.nutz.mvc.annotation.At;
 import org.nutz.mvc.annotation.Ok;
@@ -7,10 +7,10 @@ import org.nutz.mvc.annotation.Ok;
  * Created by Loyal on 2015/5/15.
  */
 
-@At("/sys/role")
+@At("/auth/role")
 public class RoleModule {
     @At("/")
-    @Ok("jsp:sys.role")
+    @Ok("jsp:auth.role")
     public Object index(){
 
         return null;

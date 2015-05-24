@@ -5,7 +5,7 @@ Date: 2015/5/15
 Time: 10:55
 To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" import="java.util.*" language="java" isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -323,7 +323,7 @@ To change this template use File | Settings | File Templates.
             menus: [
                 {name: "home", text: "首页", icon: "fa fa-dashboard", child: []},
                 {
-                    name: "sys", text: "系统管理", icon: "fa fa-cog", child: [
+                    name: "auth", text: "系统管理", icon: "fa fa-cog", child: [
                     {name: "user", text: "用户管理", icon: "fa fa-user", child: []},
                     {name: "role", text: "角色管理", icon: "fa fa-users", child: []}
                 ]

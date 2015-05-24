@@ -8,6 +8,10 @@ import com.loyal.weixin.bean.User;
  */
 public interface AuthorityService {
 
+    /**
+     * 扫描RequiresPermissions和RequiresRoles注解
+     * @param pkg 需要扫描的package
+     */
     void initFormPackage(String pkg);
 
     /**
@@ -16,7 +20,13 @@ public interface AuthorityService {
      */
     void checkBasicRoles(User admin);
 
+    /**
+     * 添加一个权限
+     */
     public void addPermission(String permission);
 
+    /**
+     * 添加一个角色
+     */
     public Role addRole(String role);
 }

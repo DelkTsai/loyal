@@ -5,7 +5,7 @@ Date: 2015/5/15
 Time: 10:55
 To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -74,7 +74,7 @@ To change this template use File | Settings | File Templates.
             <div class="row">
                 <div class="col-xs-12">
                     <label class="label label-danger center-block flat <%=session.getAttribute("loginMsg") == null ? "hidden" : ""%>" style="line-height: 30px;">
-                        <%=session.getAttribute("loginMsg") == null ? "" : session.getAttribute("loginMsg")%>
+                        ${loginMsg}
                     </label>
                     <%session.removeAttribute("loginMsg"); %>
                 </div>
