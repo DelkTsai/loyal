@@ -2,390 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0e8df3f-c9f0-4335-a1a7-42bd4be23fa3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/1_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/1_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default/32px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default-dark/32px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default/40px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default-dark/40px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/diy/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/line_conn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/metroStyle/img/line_conn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/metroStyle/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/metroStyle/img/metro.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/metroStyle/img/metro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default-dark/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/zTreeStandard.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/img/zTreeStandard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-cookies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-cookies.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-cookies.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-loader.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-loader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_af-na.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_af-za.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_am-et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_am.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-001.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-ae.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-bh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-dz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-eg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-iq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-jo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-kw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-lb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-ly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-ma.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-om.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-qa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-sa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-sd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-sy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-tn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar-ye.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_bg-bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_bn-bd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_bn-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ca-ad.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ca-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_cs-cz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_da-dk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_de-at.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_de-be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_de-ch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_de-de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_de-li.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_de-lu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_el-cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_el-gr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-as.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-bb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-bm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-bw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-bz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-dsrt-us.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-dsrt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-fm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-gy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-hk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-iso.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-jm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-mh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-mp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-mt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-mu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-na.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-nz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-ph.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-pk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-pr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-pw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-sg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-tc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-tt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-um.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-us.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-vg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-za.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en-zw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-419.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-bo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-cl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-co.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-cr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-do.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-ea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-ec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-gq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-gt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-hn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-ic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-mx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-ni.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-pa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-pe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-pr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-py.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-us.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-uy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es-ve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_et-ee.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_eu-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fa-af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fa-ir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fi-fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fil-ph.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-bf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-bi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-bj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-bl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-cd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-cf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-cg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-ch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-ci.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-cm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-dj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-ga.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-gf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-gn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-gp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-gq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-lu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-mc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-mf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-mg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-mq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-ne.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-re.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-rw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-sn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-td.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-tg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr-yt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_gl-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_gsw-ch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_gsw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_gu-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_he-il.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_hi-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_hr-hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_hu-hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_id-id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_is-is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_it-ch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_it-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_it-sm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_iw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ja-jp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_kn-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_kn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ko-kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ln-cd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ln-cg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ln.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_lt-lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_lv-lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ml-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_mr-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_mr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ms-bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ms-my.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_mt-mt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_mt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_nl-aw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_nl-be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_nl-cw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_nl-nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_nl-sx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_or-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_or.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_pl-pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_pt-ao.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_pt-gw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_pt-mz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_pt-pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_pt-st.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ro-md.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ro-ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ru-md.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ru-ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ru-ua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sk-sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sl-si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sq-al.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sr-cyrl-ba.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sr-cyrl-me.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sr-cyrl-rs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sr-cyrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sr-latn-ba.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sr-latn-me.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sr-latn-rs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sv-fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sv-se.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sw-ke.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sw-tz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_sw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ta-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ta-lk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_te-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_te.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_th-th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_tl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_tr-tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_uk-ua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ur-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ur-pk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_ur.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_vi-vn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hans-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hans-hk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hans-mo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hans-sg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hans.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hant-hk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hant-mo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hant-tw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hant.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-hk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh-tw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zu-za.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/i18n/angular-locale_zu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-resource.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-route.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-sanitize.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-scenario.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-touch.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular-touch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/bootstrap-multiselect/bootstrap-multiselect.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/bootstrap-multiselect/bootstrap-multiselect.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/errors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery-1.4.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.all-3.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.all-3.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.core-3.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.core-3.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.excheck-3.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.excheck-3.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.exedit-3.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.exedit-3.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.exedit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.exhide-3.5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/js/jquery.ztree.exhide-3.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/jstree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/jstree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/css/loyal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/metroStyle/metroStyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/share/modal.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default-dark/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/jstree/themes/default-dark/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/js/app/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/version.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/angular-1.2.19/version.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/plugins/zTree/css/zTreeStyle/zTreeStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/BaseService.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/BaseService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/home/HomeMudule.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/home/HomeMudule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/login/LoginModule.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/login/LoginModule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/MainModule.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/module/MainModule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/MainSetup.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/MainSetup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/view/NoSessionView.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/view/NoSessionView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/RoleService.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/RoleService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/UserService.class" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/classes/com/loyal/weixin/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/weixin/target/loyal/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/NutShiro.java" afterPath="$PROJECT_DIR$/weixin/src/main/java/org/nutz/integration/shiro/NutShiro.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/auth/RoleModule.java" afterPath="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/auth/RoleModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/service/RoleService.java" afterPath="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/service/RoleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/auth/UserModule.java" afterPath="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/module/auth/UserModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/service/UserService.java" afterPath="$PROJECT_DIR$/weixin/src/main/java/com/loyal/weixin/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/webapp/assets/js/ajaxapp.js" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/assets/js/ajaxapp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/assets/js/ajaxapp.js" afterPath="$PROJECT_DIR$/weixin/target/loyal/assets/js/ajaxapp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/home.jsp" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/home.jsp" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/auth/role.jsp" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/auth/role.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/auth/role.jsp" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/auth/role.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/auth/user.jsp" afterPath="$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/auth/user.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/auth/user.jsp" afterPath="$PROJECT_DIR$/weixin/target/loyal/WEB-INF/auth/user.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/weixin_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/weixin_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="loyal.iws" />
@@ -413,7 +30,7 @@
       <file leaf-file-name="role.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/auth/role.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="23.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding />
             </state>
@@ -423,7 +40,7 @@
       <file leaf-file-name="home.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6381323">
+            <state vertical-scroll-proportion="1.3245614">
               <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding />
             </state>
@@ -455,7 +72,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32258064">
+            <state vertical-scroll-proportion="0.0">
               <caret line="346" column="8" selection-start-line="346" selection-start-column="4" selection-end-line="346" selection-end-column="12" />
               <folding />
             </state>
@@ -475,7 +92,7 @@
       <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/auth/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="52.9375">
+            <state vertical-scroll-proportion="0.0">
               <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
               <folding />
             </state>
@@ -622,8 +239,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -888,7 +505,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48045978" />
     <property name="FullScreen" value="false" />
@@ -1322,11 +939,12 @@
       <workItem from="1432341370108" duration="18006000" />
       <workItem from="1432515281072" duration="26903000" />
       <workItem from="1432600036513" duration="21276000" />
+      <workItem from="1432635465557" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222892000" />
+    <option name="totallyTimeSpent" value="223037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
@@ -1341,7 +959,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15451577" sideWeight="0.5963542" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4352557" sideWeight="0.5963542" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15203427" sideWeight="0.55821544" order="0" side_tool="false" content_ui="combo" />
@@ -1495,7 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1581,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.121212">
           <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1643,9 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="53.22222">
           <caret line="518" column="8" selection-start-line="518" selection-start-column="5" selection-end-line="518" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1653,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1668,7 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1676,9 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1686,7 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27329192">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1694,13 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#906#907#0" expanded="false" />
-            <element signature="e#933#934#0" expanded="false" />
-            <element signature="e#1425#1426#0" expanded="false" />
-            <element signature="e#1465#1466#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1708,9 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1718,13 +1315,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.903225">
           <caret line="58" column="8" selection-start-line="8" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32258064">
+        <state vertical-scroll-proportion="0.0">
           <caret line="346" column="8" selection-start-line="346" selection-start-column="4" selection-end-line="346" selection-end-column="12" />
           <folding />
         </state>
@@ -1742,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1758,7 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1766,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.31944445">
           <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1774,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1798,7 +1390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/auth/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="52.9375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
           <folding />
         </state>
@@ -1808,13 +1400,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/auth/role.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding />
         </state>
@@ -1822,7 +1413,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin/src/main/webapp/WEB-INF/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6381323">
+        <state vertical-scroll-proportion="1.3245614">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
@@ -1835,10 +1426,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="jpa-descriptors" />
-              <type id="artifact" />
-              <type id="javaee-facet-resources" />
               <type id="library" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
             </show-content>
           </artifact-editor>
           <last-edited>weixin:war exploded</last-edited>
