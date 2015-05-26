@@ -1,5 +1,6 @@
 package com.loyal.weixin.module.auth;
 
+import com.loyal.weixin.bean.Role;
 import com.loyal.weixin.bean.User;
 import com.loyal.weixin.service.UserService;
 import org.apache.shiro.authz.annotation.RequiresUser;
@@ -23,7 +24,7 @@ import java.util.List;
 
 @At("/auth/user")
 @IocBean
-@AdaptBy(type=JsonAdaptor.class)
+@AdaptBy(type = JsonAdaptor.class)
 public class UserModule {
 
     @Inject("userService")
@@ -35,29 +36,37 @@ public class UserModule {
     public Object index() {
         return null;
     }
+
     @At("/list")
     @Ok("json:{locked:'password|salt',ignoreNull:true}")
-    public Object list(@Param("pager")Pager pager,@Param("user")User user){
-        return  service.find(pager, null);
+    public Object list(@Param("pager") Pager pager, @Param("user") User obj) {
+        return service.find(pager, obj);
     }
 
     @At("/add")
     @Ok("json")
-    public Object add(User user){
-        return service.add(user);
+    public Object add(User obj) {
+        return service.add(obj);
     }
 
     @At("/delete")
-    @Ok("jsp:auth.user")
-    public Object delete(){
+    @Ok("json")
+    public Object delete(User obj) {
 
-        return null;
+        return service.delete(obj);
     }
 
     @At("/edit")
-    @Ok("jsp:auth.user")
-    public Object edit(User user){
-        return service.edit(user);
+    @Ok("json")
+    public Object edit(User obj) {
+        return service.edit(obj);
+    }
+
+    @At("/edit_role")
+    @Ok("json")
+    public Object edit(@Param("user")User obj,@Param("roles")List<Role>roles) {
+        obj.setRoles(roles);
+        return service.editRole(obj);
     }
 
 }

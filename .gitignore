@@ -1,7 +1,2 @@
 *.class
-*.class
-*.class
-*.class
-*.class
-*.class
-*.class
+weixin/target/*

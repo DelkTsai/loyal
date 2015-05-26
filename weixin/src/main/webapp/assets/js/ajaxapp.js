@@ -12,7 +12,7 @@ function ajaxLoad(sidebar) {
     function linkTo(href) {
         var loading;
         $.ajax({
-            url: href + "?" + new Date(),
+            url: href + "?" + new Date().getTime(),
             type: "GET",
             beforeSend: function () {
                 loading = layer.load(1,{shade: [0.5,'#333']});

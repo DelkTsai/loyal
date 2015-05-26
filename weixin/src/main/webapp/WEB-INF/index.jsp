@@ -29,7 +29,10 @@ To change this template use File | Settings | File Templates.
     <link href="../assets/css/skins/_all-skins.css" rel="stylesheet">
     <link href="../assets/plugins/layer/skin/layer.css">
     <link href="../assets/plugins/layer/skin/layer.ext.css">
+    <link href="../assets/plugins/bootstrap-multiselect/bootstrap-multiselect.min.css">
+    <link href="../assets/plugins/zTree/css/metroStyle/metroStyle.css">
 
+    <link href="../assets/css/loyal.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -159,7 +162,7 @@ To change this template use File | Settings | File Templates.
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img src="../assets/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
-                            <span class="hidden-xs">Loyal</span>
+                            <span class="hidden-xs">${curruser.username}</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
@@ -215,7 +218,7 @@ To change this template use File | Settings | File Templates.
                     <img src="../assets/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
                 </div>
                 <div class="pull-left info">
-                    <p>Loyal</p>
+                    <p>${curruser.username}</p>
 
                     <a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
                 </div>
@@ -314,6 +317,7 @@ To change this template use File | Settings | File Templates.
 <script src="../assets/js/control-setting.js"></script>
 <script src="../assets/plugins/layer/layer.js"></script>
 <script src="../assets/plugins/layer/extend/layer.ext.js"></script>
+<script src="../assets/plugins/bootstrap-multiselect/bootstrap-multiselect.min.js"></script>
 <script src="../assets/js/ajaxapp.js"></script>
 <script>
 

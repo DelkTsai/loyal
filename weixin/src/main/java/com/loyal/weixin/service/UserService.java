@@ -30,9 +30,10 @@ public class UserService extends BaseService<User> {
         else
             cnd = Cnd.where("username",
                     Strings.isBlank(user.getUsername()) ? "<>" : "=",
-                    user.getUsername());
+                    user.getUsername()).desc("createTime");
         pager.setRecordCount(dao().count(User.class, cnd));
         list = dao().query(User.class, cnd, pager);
+        dao().fetchLinks(list, "roles");
         dao().fetchLinks(list, "roles");
         return rsOk()
                 .setv("pager", pager)
@@ -48,9 +49,9 @@ public class UserService extends BaseService<User> {
             user.setCreateTime(new Date());
             user.setUpdateTime(new Date());
             dao().insert(user);
-            return rsOk().setv("msg", "添加成功，用户名：" + user.getUsername());
+            return rsOk().setv("msg", "添加成功，用户" + user.getUsername());
         } catch (Exception e) {
-            return rsFail().setv("msg", "添加失败，用户名：" + user.getUsername());
+            return rsFail().setv("msg", "添加失败，用户" + user.getUsername());
         }
     }
 
@@ -73,19 +74,33 @@ public class UserService extends BaseService<User> {
         try {
             user.setUpdateTime(new Date());
             dao().updateIgnoreNull(user);
-            return rsOk().setv("msg", "修改成功，用户名：" + user.getUsername());
+            return rsOk().setv("msg", "修改成功，用户" + user.getUsername());
         } catch (Exception e) {
-            return rsFail().setv("msg", "修改失败，用户名：" + user.getUsername());
+            return rsFail().setv("msg", "修改失败，用户" + user.getUsername());
+        }
+    }
+
+    // 数据库更新操作
+    public NutMap editRole(User user) {
+        try {
+            user.setUpdateTime(new Date());
+            dao().clearLinks(user, "roles");
+            dao().insertRelation(user, "roles");
+            dao().updateIgnoreNull(user);
+            return rsOk().setv("msg", "修改成功，用户" + user.getUsername());
+        } catch (Exception e) {
+            return rsFail().setv("msg", "修改失败，用户" + user.getUsername());
         }
     }
 
     // 数据库删除数据操作
     public NutMap delete(User user) {
+        if ("admin".equals(user.getUsername())) return rsFail().setv("msg", "删除失败，禁止删除" + user.getUsername());
         try {
             dao().delete(user);
-            return rsOk().setv("msg", "删除成功，用户名：" + user.getUsername());
+            return rsOk().setv("msg", "删除成功，用户" + user.getUsername());
         } catch (Exception e) {
-            return rsFail().setv("msg", "删除失败，用户名：" + user.getUsername());
+            return rsFail().setv("msg", "删除失败，用户" + user.getUsername());
         }
     }
 
