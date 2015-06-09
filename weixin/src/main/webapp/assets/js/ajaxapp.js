@@ -15,12 +15,20 @@ function ajaxLoad(sidebar) {
             url: href + "?" + new Date().getTime(),
             type: "GET",
             beforeSend: function () {
-                loading = layer.load(1,{shade: [0.5,'#333']});
+                //loading = layer.load(1,{shade: [0.5,'#333']});
+                $(".content-wrapper .content").html('<div class="col-xs-12"><i class="fa fa-spinner fa-2x fa-spin text-orange"></i>&nbsp;&nbsp;正在加载......</div>');
                 //此处用setTimeout演示ajax的回调
             },
             success: function (data) {
-                layer.close(loading);
-                $(".content-wrapper .content").html(data);
+                //layer.close(loading);
+                //$(".content-wrapper .content").html(data);
+                setTimeout(function () {
+                    $(".content-wrapper .content").html(data);
+                },500)
+
+            },
+            error: function () {
+                $(".content-wrapper .content").html('<div class="col-xs-12"><i class="fa fa-warning fa-2x text-orange"></i>&nbsp;&nbsp;加载失败！</div>');
             }
         });
 

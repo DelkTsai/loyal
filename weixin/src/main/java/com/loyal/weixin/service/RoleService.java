@@ -3,6 +3,7 @@ package com.loyal.weixin.service;
 import java.util.Date;
 import java.util.List;
 
+import com.loyal.weixin.bean.Permission;
 import org.nutz.dao.pager.Pager;
 import org.nutz.ioc.loader.annotation.IocBean;
 
@@ -20,42 +21,56 @@ public class RoleService extends BaseService<Role> {
         List<Role> list = null;
         list = dao().query(Role.class, null, pager);
         pager.setRecordCount(dao().count(Role.class));
-        return rsOk().setv("pager", pager).setv("list", list);
+        dao().fetchLinks(list, "permissions");
+        return rsOk()
+                .setv("pager", pager)
+                .setv("list", list)
+                .setv("permissions", dao().query(Permission.class, null));
     }
 
     // 数据库添加操作
-    public NutMap add(Role role) {
+    public NutMap add(Role obj) {
         try {
-            role.setCreateTime(new Date());
-            role.setUpdateTime(new Date());
-            dao().insert(role);
-            return rsOk().setv("msg", "添加成功，角色名：" + role.getName());
+            obj.setCreateTime(new Date());
+            obj.setUpdateTime(new Date());
+            dao().insert(obj);
+            return rsOk().setv("msg", "添加成功，角色：" + obj.getName());
         } catch (Exception e) {
-            return rsFail().setv("msg", "添加失败，角色名：" + role.getName());
+            return rsFail().setv("msg", "添加失败，角色：" + obj.getName());
         }
     }
 
     // 数据库更新操作
-    public NutMap edit(Role role) {
+    public NutMap edit(Role obj) {
         try {
-            role.setUpdateTime(new Date());
-            dao().update(role);
-            return rsOk().setv("msg", "修改成功，角色名：" + role.getName());
+            obj.setUpdateTime(new Date());
+            dao().update(obj);
+            return rsOk().setv("msg", "修改成功，角色：" + obj.getName());
         } catch (Exception e) {
-            return rsFail().setv("msg", "修改失败，角色名：" + role.getName());
+            return rsFail().setv("msg", "修改失败，角色：" + obj.getName());
         }
     }
 
     // 数据库删除数据操作
-    public NutMap delete(Role role) {
+    public NutMap delete(Role obj) {
         try {
-            if("admin".equals(role.getName())) return rsFail().setv("msg", "删除失败，禁止删除" + role.getName());
-            dao().delete(role);
-            return rsOk().setv("msg", "删除成功，角色名：" + role.getName());
+            if("admin".equals(obj.getName())) return rsFail().setv("msg", "删除失败，禁止删除" + obj.getName());
+            dao().delete(obj);
+            return rsOk().setv("msg", "删除成功，角色：" + obj.getName());
         } catch (Exception e) {
-            return rsFail().setv("msg", "删除失败，角色名：" + role.getName());
+            return rsFail().setv("msg", "删除失败，角色：" + obj.getName());
         }
     }
 
-
+    public Object editPermission(Role obj) {
+        try {
+            obj.setUpdateTime(new Date());
+            dao().clearLinks(obj, "permissions");
+            dao().insertRelation(obj, "permissions");
+            dao().updateIgnoreNull(obj);
+            return rsOk().setv("msg", "修改成功，角色" + obj.getName());
+        } catch (Exception e) {
+            return rsFail().setv("msg", "修改失败，角色" + obj.getName());
+        }
+    }
 }

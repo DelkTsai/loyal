@@ -1,5 +1,6 @@
 package com.loyal.weixin.service;
 
+import com.loyal.weixin.bean.Role;
 import org.nutz.dao.Dao;
 import org.nutz.lang.util.NutMap;
 import org.nutz.service.IdNameEntityService;
@@ -26,4 +27,5 @@ public class BaseService<T> extends IdNameEntityService<T> {
     public NutMap rsFail(){
         return new NutMap().setv("ok",false);
     }
+
 }

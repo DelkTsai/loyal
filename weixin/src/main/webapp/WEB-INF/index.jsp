@@ -11,7 +11,7 @@ To change this template use File | Settings | File Templates.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
     <meta name="renderer" content="webkit">
 
     <title>后台管理</title>
@@ -55,11 +55,11 @@ To change this template use File | Settings | File Templates.
         <!-- Logo -->
         <a href="index.jsp" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b style="font-family: 'STLiti';font-size: 2em;"><img src="../assets/img/logo.png"
-                                                                                          width="50"></b></span>
+            <span class="logo-mini"><b><img src="../assets/img/logo.png"
+                                                                                          width="45"></b></span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b style="font-family: 'STLiti';font-size: 2em;"><img src="../assets/img/logo.png"
-                                                                                        width="50"></b> <b>后台管理</b></span>
+            <span class="logo-lg"><b><img src="../assets/img/logo.png"
+                                                                                        width="45"></b> <b>后台管理</b></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
@@ -175,17 +175,17 @@ To change this template use File | Settings | File Templates.
                                 </p>
                             </li>
                             <!-- Menu Body -->
-                            <li class="user-body">
-                                <div class="col-xs-4 text-center">
-                                    <a href="#">粉丝</a>
-                                </div>
-                                <div class="col-xs-4 text-center">
-                                    <a href="#">成就</a>
-                                </div>
-                                <div class="col-xs-4 text-center">
-                                    <a href="#">好友</a>
-                                </div>
-                            </li>
+                            <%--<li class="user-body">--%>
+                                <%--<div class="col-xs-4 text-center">--%>
+                                    <%--<a href="#">粉丝</a>--%>
+                                <%--</div>--%>
+                                <%--<div class="col-xs-4 text-center">--%>
+                                    <%--<a href="#">成就</a>--%>
+                                <%--</div>--%>
+                                <%--<div class="col-xs-4 text-center">--%>
+                                    <%--<a href="#">好友</a>--%>
+                                <%--</div>--%>
+                            <%--</li>--%>
                             <!-- Menu Footer-->
                             <li class="user-footer">
                                 <div class="pull-left">
@@ -327,9 +327,10 @@ To change this template use File | Settings | File Templates.
             menus: [
                 {name: "home", text: "首页", icon: "fa fa-dashboard", child: []},
                 {
-                    name: "auth", text: "系统管理", icon: "fa fa-cog", child: [
+                    name: "auth", text: "系统权限", icon: "fa fa-cog", child: [
                     {name: "user", text: "用户管理", icon: "fa fa-user", child: []},
-                    {name: "role", text: "角色管理", icon: "fa fa-users", child: []}
+                    {name: "role", text: "角色管理", icon: "fa fa-users", child: []},
+                    {name: "permission", text: "权限管理", icon: "fa fa-key", child: []}
                 ]
                 },
                 {

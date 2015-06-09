@@ -1,9 +1,7 @@
 package com.loyal.weixin.module.auth;
 
 import com.loyal.weixin.bean.Permission;
-import com.loyal.weixin.bean.Role;
-import com.loyal.weixin.bean.User;
-import com.loyal.weixin.service.RoleService;
+import com.loyal.weixin.service.PermissionService;
 import org.apache.shiro.authz.annotation.RequiresAuthentication;
 import org.nutz.dao.pager.Pager;
 import org.nutz.ioc.loader.annotation.Inject;
@@ -14,21 +12,19 @@ import org.nutz.mvc.annotation.At;
 import org.nutz.mvc.annotation.Ok;
 import org.nutz.mvc.annotation.Param;
 
-import java.util.List;
-
 /**
  * Created by Loyal on 2015/5/15.
  */
 
-@At("/auth/role")
+@At("/auth/permission")
 @IocBean
 @AdaptBy(type = JsonAdaptor.class)
-public class RoleModule {
-    @Inject("roleService")
-    private RoleService service;
+public class PermissionModule {
+    @Inject("permissionService")
+    private PermissionService service;
 
     @At("/")
-    @Ok("jsp:auth.role")
+    @Ok("jsp:auth.permission")
     @RequiresAuthentication
     public Object index() {
         return null;
@@ -37,21 +33,21 @@ public class RoleModule {
     @At("/list")
     @Ok("json")
     @RequiresAuthentication
-    public Object list(@Param("pager") Pager pager, @Param("role") Role obj) {
+    public Object list(@Param("pager") Pager pager, @Param("permission") Permission obj) {
         return service.find(pager);
     }
 
     @At("/add")
     @Ok("json")
     @RequiresAuthentication
-    public Object add(Role obj) {
+    public Object add(Permission obj) {
         return service.add(obj);
     }
 
     @At("/delete")
     @Ok("json")
     @RequiresAuthentication
-    public Object delete(Role obj) {
+    public Object delete(Permission obj) {
 
         return service.delete(obj);
     }
@@ -59,14 +55,9 @@ public class RoleModule {
     @At("/edit")
     @Ok("json")
     @RequiresAuthentication
-    public Object edit(Role obj) {
+    public Object edit(Permission obj) {
         return service.edit(obj);
     }
-    @At("/edit_permission")
-    @Ok("json")
-    public Object edit(@Param("role")Role obj,@Param("permissions")List<Permission> permissions) {
-        obj.setPermissions(permissions);
-        return service.editPermission(obj);
-    }
+
 
 }

@@ -12,7 +12,7 @@ To change this template use File | Settings | File Templates.
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
     <meta name="renderer" content="webkit">
     <meta name="keywords" content="">
     <meta name="description" content="">

@@ -10,9 +10,57 @@
 <link rel="stylesheet" href="../../assets/plugins/jstree/themes/default/style.css">
 <link rel="stylesheet" href="../../assets/plugins/jstree/themes/default-dark/style.css">
 
+<style>
+
+</style>
 <div class="row" id="vm-user">
 
     <%--<%@include file="../share/modal.jsp" %>--%>
+
+    <%--用户编辑form--%>
+    <div class="col-xs-12">
+        <div class="box box-{{panel.isAdd?'success':'primary'}}" id="box-edit" style="display: none;">
+            <div class="box-header with-border" style="padding: 6px 10px;">
+                <h3 class="box-title">{{panel.isAdd?'新增':'编辑'}}</h3>
+
+                <div class="box-tools pull-right">
+                    <%--<button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus fa-lg"></i></button>--%>
+                    <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times fa-lg"></i></button>
+                </div>
+                <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <form>
+                        <span>
+                             <input type="text"
+                                    class="form-control"
+                                    disabled="{{isEdit?'disabled':''}}"
+                                    id="username" placeholder="用户名"
+                                    v-model="panel.form.username">
+                        </span>
+                    <%--<span>--%>
+                    <%--<input type="text"--%>
+                    <%--class=""--%>
+                    <%--disabled="{{isEdit?'disabled':''}}"--%>
+                    <%--id="username" placeholder="用户名"--%>
+                    <%--v-model="panel.form.username">--%>
+                    <%--</span>--%>
+                        <span>
+                            <input type="text"
+                                   class="form-control" id="comment"
+                                   placeholder="备注"
+                                   v-model="panel.form.comment">
+                        </span>
+                    <button class="btn btn-success btn-flat" v-on="click:save">
+                        <i class="fa fa-save"></i> 保存
+                    </button>
+                </form>
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+    </div>
 
     <%--模态对话框，用于角色分配--%>
     <div class="col-xs-12">
@@ -21,12 +69,12 @@
              aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header" style="padding: 8px;">
                         <button type="button" class="close" data-dismiss="modal"
                                 aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        <h4 class="modal-title" id="myModalLabel" style="font-weight: bold;">
+                        <h4 class="modal-title" id="myModalLabel">
                             角色分配
                         </h4>
                     </div>
@@ -40,15 +88,15 @@
 
                         </div>
                     </div>
-                    <div class="modal-footer no-padding">
-                        <div class="btn btn-default col-xs-6 btn-flat no-margin  btn-lg"
+                    <div class="modal-footer text-center">
+                        <button class="btn btn-default btn-flat"
                              data-dismiss="modal">
                             <i class="fa fa-close"></i>&nbsp;关闭
-                        </div>
-                        <div class="btn btn-success col-xs-6 pull-right btn-flat no-margin btn-lg"
+                        </button>
+                        <button class="btn btn-success btn-flat"
                              v-on="click:save_role">
                             <i class="fa fa-save"></i>&nbsp;保存
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -60,7 +108,7 @@
         <div class="box box-success">
             <div class="box-header">
                 <div class="form-inline">
-                    <select class="form-control" v-model="condition.form.roleid"
+                    <select class="form-control" v-model="condition.form.roleId"
                             options="condition.option" style="width: 100px; display: inline-block;"></select>
                     <input type="text" class="form-control"
                            v-model="condition.form.username" placeholder="用户名"
@@ -76,7 +124,7 @@
 
             <div class="box-body">
                 <div class=" table-responsive">
-                    <table class="table">
+                    <table class="table ">
                         <thead>
                         <tr>
                             <th>#</th>
@@ -90,33 +138,34 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr v-repeat="user:(page==null?[]:page.list)" class="{{user.locked?'bg-warning':''}}">
+                        <tr v-repeat="obj:(page==null?[]:page.list)" class="{{obj.locked?'bg-warning':''}}">
                             <td>{{(page.pager.pageNumber-1)*page.pager.pageSize+$index+1}}</td>
-                            <td><b>{{user.username}}</b></td>
+                            <td><b>{{obj.username}}</b></td>
                             <td>
-                                <span class="label label-default" v-if="user.roles.length<1"
+                                <span class="label label-default" v-if="obj.roles.length<1"
                                       style="margin-right: 3px;border-radius: 10px;cursor: pointer;" title="点击分配角色"
-                                      v-on="click:edit_role(user)">
+                                      v-on="click:edit_role(obj)">
                                     未分配
                                 </span>
-                                <span class="label label-waring" v-on="click:edit_role(user)" v-repeat="role:user.roles"
-                                      style="margin-right: 3px;border-radius: 10px;cursor: pointer;" title="点击修改角色">
-                                    {{role.alias}}
+                                <span class="label label-waring" v-if="obj.roles.length>0"  v-on="click:edit_role(obj)"  style="margin-right: 3px;border-radius: 10px;cursor: pointer;" title="点击修改角色">
+                                   <template  v-repeat="role:obj.roles">
+                                       {{$index==0?role.alias:'、'+role.alias}}
+                                   </template>
                                 </span>
                             </td>
-                            <td>{{user.createTime}}</td>
-                            <td>{{user.updateTime}}</td>
+                            <td>{{obj.createTime}}</td>
+                            <td>{{obj.updateTime}}</td>
                             <td>
-                                <button class="btn btn-{{user.locked?'warning':'success'}} btn-xs"
-                                        v-on="click:lock(user)" title="{{user.locked?'点击启用':'点击锁定'}}">
-                                    {{user.locked?'已锁定':'已启用'}}
+                                <button class="btn btn-{{obj.locked?'warning':'success'}} btn-xs"
+                                        v-on="click:lock(obj)" title="{{obj.locked?'点击启用':'点击锁定'}}">
+                                    {{obj.locked?'已锁定':'已启用'}}
                                 </button>
                             </td>
-                            <td>{{user.comment}}</td>
+                            <td>{{obj.comment}}</td>
                             <td><a title="编辑" href="javascript:;"
-                                   v-on="click:edit(user)"><i
+                                   v-on="click:edit(obj)"><i
                                     class="fa fa-edit  text-green fa-lg"></i></a> &nbsp;<a
-                                    title="删除" v-on="click:deleter(user)" href="javascript:;"><i
+                                    title="删除" v-on="click:deleter(obj)" href="javascript:;"><i
                                     class="fa fa-trash fa-lg text-red"></i></a>
                             </td>
                         </tr>
@@ -130,66 +179,18 @@
             </div>
 
             <div class="box-footer">
-                <%--<%@include file="../share/pager.jsp" %>--%>
+                <%@include file="../share/pager.jsp" %>
             </div>
         </div>
     </div>
-
-    <%--用户编辑form--%>
-    <div class="col-xs-12">
-        <div class="box box-{{panel.isAdd?'success':'primary'}}">
-            <div class="box-header with-border">
-                <h3 class="box-title">{{panel.isAdd?'新增':'编辑'}}</h3>
-
-                <div class="box-tools pull-right">
-                    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                </div>
-                <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                <form id="user-editor">
-                    <div class="col-md-3">
-                        <%--<span class="input-group-addon"><b>用户名</b></span>--%>
-                        <input type="text"
-                               class="form-control"
-                               disabled="{{isEdit?'disabled':''}}"
-                               id="username" placeholder="用户名"
-                               v-model="panel.form.username">
-                    </div>
-                    <%--<div class="col-md-3">--%>
-                    <%--&lt;%&ndash;<span class="input-group-addon"><b>角色</b></span>&ndash;%&gt;--%>
-                    <%--<select class="form-control multiselect" multiple placeholder="角色">--%>
-                    <%--<option value="{{name}}" v-repeat="page.roles">{{alias}}</option>--%>
-                    <%--</select>--%>
-                    <%--</div>--%>
-                    <div class="col-md-3">
-                        <%--<span class="input-group-addon"><b>备注</b></span>--%>
-                        <input type="text"
-                               class="form-control" id="comment"
-                               placeholder="备注"
-                               v-model="panel.form.comment">
-                    </div>
-
-                    <div class="col-xs-12" style="margin-top: 5px;">
-                        <%--<button type="reset" class="btn btn-primary btn-flat">--%>
-                        <%--<i class="fa fa-undo"></i> 重置--%>
-                        <%--</button>--%>
-                        <button type="button" class="btn btn-success btn-flat" v-on="click:save">
-                            <i class="fa fa-save"></i> 保存
-                        </button>
-                    </div>
-
-                </form>
-            </div>
-            <!-- /.box-body -->
-        </div>
-        <!-- /.box -->
-    </div>
-
 </div>
 
 <style>
+    form span {
+        display: inline-block;
+        width: 150px;
+    }
+
     .jstree-open > .jstree-anchor > .fa-folder:before {
         content: "\f07c";
     }
