@@ -157,7 +157,7 @@
                             <td>{{obj.comment}}</td>
                             <td><a title="编辑" href="javascript:;"
                                    v-on="click:edit(obj)"><i
-                                    class="fa fa-edit  text-green fa-lg"></i></a> &nbsp;<a
+                                    class="fa fa-edit  text-blue fa-lg"></i></a> &nbsp;<a
                                     title="删除" v-on="click:deleter(obj)" href="javascript:;"><i
                                     class="fa fa-trash fa-lg text-red"></i></a>
                             </td>
@@ -354,7 +354,7 @@
             var that = this;
             setTimeout(function () {
                 that.initTree();
-            }, 100);
+            }, 500);
         }
     });
 </script>

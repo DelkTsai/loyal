@@ -11,7 +11,8 @@ import org.nutz.mvc.annotation.Ok;
 public class UserModlue {
 
     @At("/")
-    @Ok("jsp:weixin.user")
+//    @Ok("jsp:weixin.user")
+    @Ok("http:404")
     public Object index(){
 
         return null;

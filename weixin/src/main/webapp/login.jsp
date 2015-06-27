@@ -36,23 +36,24 @@ To change this template use File | Settings | File Templates.
 
 </head>
 
-<body class="login-page" style="background: url('assets/img/boxed-bg.jpg');">
+<%--<body class="login-page" style="background: url('assets/img/boxed-bg.jpg');">--%>
+<body class="login-page" style="background: #283035;background-size: cover;">
 
 <div class="login-box animated">
     <div class="login-logo">
-        <a href="#"><img src="../assets/img/logo.png" width="30%" class="img-circle" alt="User Image"/></a>
+        <a href="#"><img src="../assets/img/logo.png" width="20%" class="img-circle" alt="Logo"/></a>
     </div>
     <!-- /.login-logo -->
-    <div class="login-box-body" style="background-color: rgba(255,255,255,0.5);">
+    <div class="login-box-body" style="background:none;">
         <p class="login-box-msg text-bold">后台管理系统</p>
 
-        <form action="login" method="post">
+        <form action="login" method="post" autocomplete="off">
             <div class="form-group has-feedback">
-                <input type="text" class="form-control" name="username" placeholder="用户名" required/>
+                <input type="text" class="form-control no-border" name="username" placeholder="用户名" required style="background: #e4e4e4 !important;"/>
                 <span class="glyphicon glyphicon-user form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
-                <input type="password" class="form-control" name="password" placeholder="密码" required/>
+                <input type="password" class="form-control no-border" name="password" placeholder="密码" required style="background: #e4e4e4 !important;"/>
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
             <div class="row">

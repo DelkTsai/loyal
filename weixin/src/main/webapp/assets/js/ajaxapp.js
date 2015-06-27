@@ -22,9 +22,9 @@ function ajaxLoad(sidebar) {
             success: function (data) {
                 //layer.close(loading);
                 //$(".content-wrapper .content").html(data);
-                setTimeout(function () {
-                    $(".content-wrapper .content").html(data);
-                },500)
+                $(".content-wrapper .content").html(data);
+                //setTimeout(function () {
+                //},500)
 
             },
             error: function () {

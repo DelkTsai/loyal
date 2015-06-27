@@ -170,6 +170,6 @@ var vm_user = new Vue({
         setTimeout(function () {
             that.initOption();
             that.initTree();
-        },100);
+        },500);
     }
 });
